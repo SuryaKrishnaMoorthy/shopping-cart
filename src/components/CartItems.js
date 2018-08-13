@@ -2,10 +2,10 @@ import React from 'react'
 
 const CartItems = () => {
   return (
-    <div className="container">
+    <div className='container'>
       <h1>Cart Items</h1>
     </div>
   )
 }
 
-export default CartItems;
+export default CartItems

@@ -3,7 +3,7 @@ import CartHeader from './components/CartHeader';
 import CartFooter from './components/CartFooter';
 import CartItems from './components/CartItems';
 import 'bootstrap/dist/css/bootstrap.css';
-
+let year = '20180'
 class App extends Component {
   render() {
     //React components
@@ -11,7 +11,7 @@ class App extends Component {
       <section>
         <CartHeader />
         <CartItems />
-        <CartFooter copyright='2018'/>
+        <CartFooter copyright={year}/>
       </section>
     );
   }
