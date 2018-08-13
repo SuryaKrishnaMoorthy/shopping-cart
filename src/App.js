@@ -11,7 +11,7 @@ class App extends Component {
       <section>
         <CartHeader />
         <CartItems />
-        <CartFooter />
+        <CartFooter copyright='2018'/>
       </section>
     );
   }
